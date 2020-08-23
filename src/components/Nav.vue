@@ -1,7 +1,7 @@
 <template>
   <nav class="flex items-center justify-between flex-wrap bg-gray-800 p-4 w-full">
   <div class="w-1/5 font-extrabold flex justify-between flex-wrap items-center ml-8">
-    <a class=" w-50 hover:text-white " href="/">
+    <a class=" w-50 hover:text-white " href="https://github.com/911harm/Tiwv">
     <span class="md:inline hidden">
       911Harm
       </span> 
@@ -22,7 +22,7 @@
   </div>
   
   <div :class="menu ? 'block' : 'hidden'" class="container">
-    <a class="block pl-1 mt-3 text-white hover:bg-gray-500 rounded" href="/">911Harm</a>
+    <a class="block pl-1 mt-3 text-white hover:bg-gray-500 rounded" href="https://github.com/911harm/Tiwv">911Harm</a>
     <a class="block pl-1 mt-3 text-white hover:bg-gray-500 rounded" @click.prevent="menu=false" href="/">Cerrar</a>
   </div>
 </nav>

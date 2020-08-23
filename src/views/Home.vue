@@ -2,17 +2,16 @@
 <template>
     <div id="app" class="relative">
        
-      <div class="block md:w-3/4  h-40 absolute inset-0 z-10 mx-auto">
+      <div class="block md:w-3/4 w-4/5 absolute inset-0 z-10 mx-auto h-full">
         <h2 class="text-center text-white text-5xl">
-          Hello
+          Vue.js
         </h2>
         <div class="container">
             <img class="block w-1/3 mx-auto " src="../assets/logo.png" alt="Vue.js">
         </div>
         <p class="text-white text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequatur dolore labore nemo! Tempore magnam iusto ab dicta velit alias saepe facere fuga ullam! Necessitatibus, voluptate eaque. Eligendi, ullam facilis!</p>
         <p class="text-white text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequatur dolore labore nemo! Tempore magnam iusto ab dicta velit alias saepe facere fuga ullam! Necessitatibus, voluptate eaque. Eligendi, ullam facilis!</p>
-        <p class="text-white text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequatur dolore labore nemo! Tempore magnam iusto ab dicta velit alias saepe facere fuga ullam! Necessitatibus, voluptate eaque. Eligendi, ullam facilis!</p>
-        
+        <img class="block mx-auto w-1/3 p-2" src="../assets/gh.png" alt="">
       </div>
 
       <vue-particles
@@ -31,7 +30,7 @@
         hoverMode="grab"
         :clickEffect="true"
         clickMode="push"
-        class="h-screen bg-red-700 absolute  top-0 left-0 right-0 botton-0"
+        class="h-screen bg-red-700 absolute inset-0 "
       >
       </vue-particles>
     </div>
@@ -45,6 +44,10 @@ export default {
     }
 }
 </script>
-<style scoped>
-  
+<style >
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@400;800&display=swap');
+*{
+font-family: 'Rokkitt', serif;
+
+}
 </style>
